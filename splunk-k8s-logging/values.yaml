@@ -1,0 +1,19 @@
+global:
+  splunk:
+    hec:
+      host: *
+      port: 443
+      token: *
+      protocol: https
+      indexName: main
+      insecureSSL: true
+
+splunk-kubernetes-logging:
+  enabled: true
+  namespace: logging-demo
+
+splunk-kubernetes-objects:
+  enabled: false
+
+splunk-kubernetes-metrics:
+  enabled: false

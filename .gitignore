@@ -1,3 +1,7 @@
 **/ignore
 **/Notebooks/.ipynb_checkpoints
 **/.vscode
+**/Splunk
+**/leetcode_150
+**/Prometheus
+**/.github
